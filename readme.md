@@ -9,14 +9,12 @@ This repository contains a starter framework for API testing using TypeScript. I
 
 ### 1. Clone the Repository
 
-````bash
-git clone https://github.com/your-username/api-testing-framework.git
-cd api-testing-framework
+```git clone https://github.com/your-username/api-testing-framework.git```
+```cd api-testing-framework```
 
 ### 2. Install Dependencies
 
-```bash
-npm install
+```npm install```
 # or
-yarn install
-````
+```yarn install```
+
