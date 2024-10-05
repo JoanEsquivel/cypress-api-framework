@@ -15,6 +15,6 @@ This repository contains a starter framework for API testing using TypeScript. I
 ### 2. Install Dependencies
 
 ```npm install```
-# or
+or
 ```yarn install```
 
