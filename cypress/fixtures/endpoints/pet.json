@@ -1,0 +1,11 @@
+{
+    "pet": {
+        "url": "/pet",
+        "updatePet": {
+            "method": "PUT"
+        },
+        "postPet":{
+            "method": "POST"
+        }
+    }
+}

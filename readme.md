@@ -6,6 +6,7 @@ This repository contains a starter framework for API testing using TypeScript. I
 
 - Node.js (v21 or later)
 - npm or yarn
+- SUPPORTED TYPESCRIPT VERSIONS: >=4.3.5 <5.4.0
 
 ### 1. Clone the Repository
 
@@ -21,3 +22,8 @@ or
 ### 3. To format your code using the prettier plugin
 
 ```npx prettier . --write```
+
+### 4. To check and fix lint errors
+
+```npm run lint-check```
+```npm run lint-fix```
