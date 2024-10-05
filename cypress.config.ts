@@ -5,6 +5,6 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: 'https://petstore3.swagger.io/'
+    baseUrl: 'https://petstore3.swagger.io/api/v3'
   },
 })

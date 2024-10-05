@@ -1,0 +1,16 @@
+{
+  "httpStatus": {
+    "ok": {
+      "statusCode": 200,
+      "message": ""
+    },
+    "badRequest": {
+      "statusCode": 400,
+      "message": ""
+    },
+    "notFound": {
+      "statusCode": 404,
+      "message": ""
+    }
+  }
+}

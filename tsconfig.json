@@ -7,7 +7,11 @@
     "allowJs": true,
     "module": "CommonJS",
     "types": ["cypress", "node"],
-    "target": "ES2021"
+    "target": "ES2021",
+    "baseUrl": "./",
+    "paths": {
+      "@fixtures/*": ["cypress/fixtures/*"]
+    }
   },
   "exclude": ["node_modules"],
   "include": ["cypress.config.ts", "cypress/**/**/*.ts"]

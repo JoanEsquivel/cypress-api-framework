@@ -27,3 +27,7 @@ or
 
 ```npm run lint-check```
 ```npm run lint-fix```
+
+### 5. API used for testing
+
+``` https://petstore3.swagger.io/#/ ```

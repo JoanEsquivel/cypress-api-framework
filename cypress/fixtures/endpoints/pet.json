@@ -1,11 +1,14 @@
 {
-    "pet": {
-        "url": "/pet",
-        "updatePet": {
-            "method": "PUT"
-        },
-        "postPet":{
-            "method": "POST"
-        }
+  "pet": {
+    "basePath": "/pet",
+    "updatePet": {
+      "method": "PUT"
+    },
+    "postPet": {
+      "method": "POST"
+    },
+    "getPet": {
+      "method": "GET"
     }
+  }
 }
