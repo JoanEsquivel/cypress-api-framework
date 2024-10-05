@@ -18,3 +18,6 @@ This repository contains a starter framework for API testing using TypeScript. I
 or
 ```yarn install```
 
+### 3. To format your code using the prettier plugin
+
+```npx prettier . --write```

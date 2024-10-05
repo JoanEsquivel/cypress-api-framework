@@ -1,0 +1,31 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "cypress/globals": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:cypress/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-unused-vars": "error",
+    "no-undef": "error",
+    "cypress/no-assigning-return-values": "error",
+    "cypress/no-unnecessary-waiting": "error",
+    "cypress/assertion-before-screenshot": "warn",
+    "cypress/no-force": "warn",
+    "cypress/no-async-tests": "error",
+    "cypress/no-async-before": "error",
+    "cypress/no-pause": "error",
+    "cypress/no-debug": "error"
+  },
+  "plugins": ["cypress"]
+}
