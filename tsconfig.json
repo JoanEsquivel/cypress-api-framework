@@ -7,8 +7,9 @@
     "allowJs": true,
     "module": "CommonJS",
     "types": ["cypress", "node"],
-    "target": "ES2021",
+    "target": "ES6",
     "baseUrl": "./",
+    "skipLibCheck": true,
     "paths": {
       "@fixtures/*": ["cypress/fixtures/*"]
     }
