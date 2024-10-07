@@ -1,0 +1,22 @@
+{
+  "post": {
+    "id": 10,
+    "name": "doggie",
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "photoUrls": ["https://image1.png", "https://image2.png"],
+    "tags": [
+      {
+        "id": 0,
+        "name": "tag#0"
+      },
+      {
+        "id": 1,
+        "name": "tag#1"
+      }
+    ],
+    "status": "available"
+  }
+}
