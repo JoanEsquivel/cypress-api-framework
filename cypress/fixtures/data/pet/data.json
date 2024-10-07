@@ -1,0 +1,6 @@
+{
+  "post": {
+    "invalidId": "abc",
+    "nonExistentId": "9999"
+  }
+}
