@@ -36,7 +36,7 @@ describe('TS Get Pet - Find pet by ID', () => {
 
   // Different approach to validate the response schema
   it.only('TC: Retrieve a pet with a valid ID and validate the response schema', function () {
-    const getPetByIdPath = { endpoint: '/pet/{petId}', method: 'GET', status: 404 };
+    const getPetByIdPath = { endpoint: '/pet/{petId}', method: 'GET', status: 200 };
     cy.getPetById(Cypress.env('petId')).validateSchema(petSchema, getPetByIdPath);
   });
 });
