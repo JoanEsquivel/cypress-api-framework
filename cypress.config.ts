@@ -13,6 +13,7 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       // mochawesome reporter
       require('cypress-mochawesome-reporter/plugin')(on);
+      require('cypress-terminal-report/src/installLogsPrinter')(on)
     },
     baseUrl: 'https://petstore3.swagger.io/api/v3',
   },

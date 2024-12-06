@@ -25,7 +25,8 @@ describe('TS Get Pet - Find pet by ID', () => {
   });
   it('TC: Retrieve a pet with an invalid ID format', function () {
     cy.getPetById(petTestData.post.invalidId).then((response) => {
-      expect(response.status).to.eq(commons.httpStatus.badRequest.statusCode);
+      // Introduced a bug here to show the terminal report
+      expect(response.status).to.eq(commons.httpStatus.ok.statusCode);
     });
   });
   it('TC: Retrieve a pet with a non-existent ID', function () {
