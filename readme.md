@@ -31,3 +31,17 @@ or
 ### 5. API used for testing
 
 ``` https://petstore3.swagger.io/#/ ```
+
+### 6. To run the tests
+Locally:
+```npm run testrunner```
+or
+Terminal:
+```npm run cy```
+
+### 7. Libraries used
+
+- [Cypress](https://docs.cypress.io/guides/overview/why-cypress): The modern browser automation framework.
+- [Cypress Mochawesome Reporter](https://www.npmjs.com/package/cypress-mochawesome-reporter): A reporter for Cypress that generates beautiful reports.
+- [Cypress Ajv Schema Validator](https://github.com/sclavijosuero/cypress-ajv-schema-validator): A plugin for Cypress that validates the response schema against the JSON schema.
+- [Cypress Terminal Report](https://www.npmjs.com/package/cypress-terminal-report): A plugin for Cypress that collects and displays terminal output in the Cypress UI.
