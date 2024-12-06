@@ -1,6 +1,8 @@
 // Command imports
 import './commands';
-import './collections/pets';
-
+import './commands/collections/pets';
+import './commands/utils';
 // Lib imports
 import 'cypress-mochawesome-reporter/register';
+import 'cypress-ajv-schema-validator';
+

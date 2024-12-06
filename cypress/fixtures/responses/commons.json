@@ -2,15 +2,15 @@
   "httpStatus": {
     "ok": {
       "statusCode": 200,
-      "message": ""
+      "description": ""
     },
     "badRequest": {
       "statusCode": 400,
-      "message": ""
+      "description": ""
     },
     "notFound": {
       "statusCode": 404,
-      "message": ""
+      "description": ""
     }
   }
 }
